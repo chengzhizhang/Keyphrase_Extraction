@@ -1,3 +1,5 @@
+#Calculate R values under different conditions with reference information added(Appears or does not appear in the title and abstract)
+
 # -*- coding: utf-8 -*-
 import nltk
 import json
@@ -5,7 +7,6 @@ import re
 from nltk.stem.porter import PorterStemmer
 porter_stemmer = PorterStemmer() 
 
-#Calculate R values under different conditions with reference information added(Appears or does not appear in the title and abstract)
 
 f1=open('E:\\KEA_code\\data\\Semeval\\b_Semeval.range_stem_244.json','r')
 lines1=f1.readlines()
