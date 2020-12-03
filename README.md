@@ -24,22 +24,22 @@
 * c_evaluate_key.py #Calculate R values under different conditions with reference information added
 
 ### NaiveBayes
-* a_huafen.py #The corpus is divided into ten data sets for ten fold cross validation.
-* b_yuliao_txt.py #Process the corpus into the format required by KEA.
-* b_yuliao_key.py #Process the corpus into the format required by KEA
-* c_keyhebing.py #Merge the predicted keywords for each paper into a single file, line by line.
+* a_dataset_setup.py #The corpus is divided into ten data sets for ten fold cross validation.
+* b_corpus_preparing.py #Process the corpus into the format required by KEA.
+* b_preparing_keyword.py #Process the keywords into the format required by KEA
+* c_merge_key.py #Merge the predicted keywords for each paper into a single file, line by line.
 * d_evaluate.py #Calculate the P, R and F1 values of the extraction results
 * e_evaluate_key.py #Calculate R values under different conditions with reference information
 
 ### CRF
 * a_textrank.py #Calculate the TextRank value.
 * a_tfidf.py #Calculate the TF*IDF value.
-* b_biaozhu_cixing.py #Part-of-speech tagging
-* c_biaotezheng.py #Annotation: TextRank value, TF*IDF value, position, sequence 5_tag {S,B,M,E,N}, part of speech
-* d_huafen.py #The corpus is divided into test set and training set.
-* e_tezheng.py #Select the characteristics of the corpus.
-* f_tiqu.py #Writes the predicted words with {S,B,M,E} tags in line order to the new file.
-* g_jisuan.py #Combines the extracted labeled words and writes them to the new file.
+* b_pos_tagging.py #Part-of-speech tagging
+* c_features_annotation.py #Annotation: TextRank value, TF*IDF value, position, sequence 5_tag {S,B,M,E,N}, part of speech
+* d_dataset_setup.py #The corpus is divided into test set and training set.
+* e_features_selection.py #Select the characteristics of the corpus.
+* f_tag_prediction.py #Writes the predicted words with {S,B,M,E} tags in line order to the new file.
+* g_keyword_generation.py #Combines the extracted labeled words and writes them to the new file.
 * h_evaluate.py  #Calculate the P, R and F1 values of the extraction results
 * i_evaluate.py #Calculate R values under different conditions with reference information
 * template for CRF model
