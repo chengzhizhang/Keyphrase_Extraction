@@ -1,3 +1,6 @@
+#Calculate the P, R and F1 values of the extraction results
+
+
 # -*- coding: utf-8 -*-
 import nltk
 import json
@@ -5,7 +8,6 @@ import re
 from nltk.stem.porter import PorterStemmer
 porter_stemmer = PorterStemmer() 
 
-#Calculate the P, R and F1 values of the extraction results
 
 f1=open('E:\\KEA_code\\crf\\KP20K\\1\\test1_200.json','r')
 lines1=f1.readlines()
