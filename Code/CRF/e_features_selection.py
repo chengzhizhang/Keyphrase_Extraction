@@ -1,11 +1,10 @@
-#Select the features of the corpus.
+#Select the characteristics of the corpus.
+#Adjust feature sequence
+
 
 # -*- coding: utf-8 -*-
 import json
 import re
-
-#Select the characteristics of the corpus.
-#Adjust feature sequence
 
 f=open('E:\\KEA_code\\crf\\corpus\\test1.json','r')
 #f=open('E:\\KEA_code\\crf\\corpus\\train1.json','r')
