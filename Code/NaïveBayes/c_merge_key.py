@@ -1,7 +1,8 @@
+#Merge the predicted keywords for each paper into a single file, line by line.
+
 # -*- coding: utf-8 -*-
 import os
 
-#Merge the predicted keywords for each paper into a single file, line by line.
 
 #w=open('E:\\KEA_code\\NB\\KEA-3.0\\key\\key10.txt','w')
 w=open('E:\\KEA_code\\NB\\KEA-3.0\\key\\key2_ref.txt','w')
