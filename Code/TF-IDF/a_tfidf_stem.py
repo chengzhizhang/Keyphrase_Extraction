@@ -1,3 +1,5 @@
+#Automatic keyphrase extraction Methods based on TF*IDF
+
 # -*- coding: utf-8 -*-
 import nltk
 from nltk.tokenize import word_tokenize
@@ -9,7 +11,7 @@ import json
 import re
 import math
 
-#Automatic keyphrase extraction Methods based on TF*IDF
+
 
 f=open('E:\\KEA_code\\data\\Semeval\\a_Semeval.range_244.json','r')
 lines=f.readlines()
