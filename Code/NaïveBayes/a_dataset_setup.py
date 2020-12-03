@@ -3,7 +3,6 @@
 # -*- coding: utf-8 -*-
 import json
 
-#The corpus is divided into ten data sets for ten fold cross validation.
 
 f=open('E:\\KEA_code\\data\\Semeval\\b_Semeval.range_stem_244.json','r')
 lines=f.readlines()
