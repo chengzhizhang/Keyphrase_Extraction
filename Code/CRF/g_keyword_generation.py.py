@@ -1,7 +1,8 @@
+#Combines the extracted labeled words and writes them to the new file.
+
 # -*- coding: utf-8 -*-
 import re
 
-#Combines the extracted labeled words and writes them to the new file.
 
 f=open(r'E:\\KEA_code\\crf\\corpus\\test11_tiqu.txt','r')
 lines=f.readlines()
