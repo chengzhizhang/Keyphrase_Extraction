@@ -1,9 +1,10 @@
+#Annotation: TextRank value, TF*IDF value, position, sequence 5_tag {S,B,M,E,N}, part of speech
+
 # -*- coding: utf-8 -*-
 import json
 import re
 from nltk.stem.porter import PorterStemmer
 
-#Annotation: TextRank value, TF*IDF value, position, sequence 5_tag {S,B,M,E,N}, part of speech
 
 porter_stemmer = PorterStemmer() 
 f1=open('E:\\KEA_code\\crf\\b_KP20K_cixing.json','r')
@@ -148,7 +149,7 @@ def bz_location(word_list,key_list,loc,tr_llist,tf_list):
                             i+=l
                             break
                         else:
-                            print("错误")
+                            print("Error!")
                 else:
                     if i<n_len:
                         result10=[]
