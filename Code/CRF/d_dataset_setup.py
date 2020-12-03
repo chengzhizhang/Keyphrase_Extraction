@@ -1,3 +1,5 @@
+#The corpus is divided into test set and training set.
+
 # -*- coding: utf-8 -*-
 import json
 import re
