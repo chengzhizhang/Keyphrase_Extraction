@@ -1,4 +1,4 @@
-#Process the corpus into the format required by KEA
+#Process the keywords into the format required by KEA
 
 # -*- coding: utf-8 -*-
 import json
