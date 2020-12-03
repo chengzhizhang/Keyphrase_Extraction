@@ -2,7 +2,7 @@
 
 # -*- coding: utf-8 -*-
 import random
-#Reordering the data in the dataset
+
 f=open('E:\\KEA_code\\data\\Semeval2010_244.json','rb')
 lines=f.readlines()
 w1=open('E:\\KEA_code\\data\\Semeval\\Semeval.range_244.json','w')
