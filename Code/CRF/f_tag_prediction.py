@@ -1,7 +1,8 @@
+#Writes the predicted words with {S,B,M,E} tags in line order to the new file.
+
 # -*- coding: utf-8 -*-
 import re
 
-#Writes the predicted words with {S,B,M,E} tags in line order to the new file.
 
 f=open(r'E:\\KEA_code\\crf\\corpus\\test11.txt','r')
 lines=f.readlines()
