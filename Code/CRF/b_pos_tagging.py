@@ -1,4 +1,4 @@
-#Part-of-speech tagging
+#Perform part-of-speech filtering and stemming on the data, and return (word form extracted by stem: part of speech of the original word)
 
 # -*- coding: utf-8 -*-
 import nltk
@@ -11,7 +11,6 @@ import json
 import re
 import math
 
-#Perform part-of-speech filtering and stemming on the data, and return (word form extracted by stem: part of speech of the original word)
 
 f=open('E:\\KEA_code\\data\\KP20K_2000.json','r')
 lines=f.readlines()
