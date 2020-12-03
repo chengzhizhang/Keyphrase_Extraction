@@ -42,7 +42,7 @@
 * g_keyword_generation.py #Combines the extracted labeled words and writes them to the new file.
 * h_evaluate.py  #Calculate the P, R and F1 values of the extraction results
 * i_evaluate.py #Calculate R values under different conditions with reference information
-* template for CRF model
+* template #template for CRF model
 
 
 ###  References
