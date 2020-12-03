@@ -1,3 +1,5 @@
+#The corpus is divided into ten data sets for ten fold cross validation.
+
 # -*- coding: utf-8 -*-
 import json
 
