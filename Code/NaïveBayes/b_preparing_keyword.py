@@ -5,7 +5,6 @@ import json
 import re
 
 
-
 f=open('E:\\KEA_code\\data\\Semeval\\corpus\\1\\train1.json','r')
 lines=f.readlines()
 #wr=open('E:\\KEA_code\\NB\\corpus\\10\\train10\\25.key','w')
