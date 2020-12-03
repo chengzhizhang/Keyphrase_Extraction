@@ -11,10 +11,10 @@ import json
 import re
 import math
 #Stop word filtering, Symbol removal and Stemming.
-f=open('Data\\KP20K_2000.json','r')
+f=open('E:\\KEA_code\\data\\KP20K_2000.json','r')
 lines=f.readlines()
-
-wr=open('Data\\KP20K.stem.json','w')#Only Stemming
+#wr=open('E:\\KEA_code\\data\\Semeval\\b_Semeval.stem_244.json','w')#Stop word filtering, Symbol removal and Stemming.
+wr=open('E:\\KEA_code\\data\\KP20K.stem.json','w')#Only Stemming
 len_text=len(lines)
 print(len_text) 
 porter_stemmer = PorterStemmer() 
