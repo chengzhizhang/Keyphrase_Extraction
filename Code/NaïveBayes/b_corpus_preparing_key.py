@@ -1,8 +1,10 @@
+#Process the corpus into the format required by KEA
+
 # -*- coding: utf-8 -*-
 import json
 import re
 
-#Process the corpus into the format required by KEA
+
 
 f=open('E:\\KEA_code\\data\\Semeval\\corpus\\1\\train1.json','r')
 lines=f.readlines()
