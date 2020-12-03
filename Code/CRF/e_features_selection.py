@@ -1,3 +1,5 @@
+#Select the features of the corpus.
+
 # -*- coding: utf-8 -*-
 import json
 import re
@@ -25,12 +27,12 @@ for line in lines:
         ke=re.split(" ",line.strip()) 
         if len(ke)==6:
             if len(ke[1])>0:
-                output.append(ke[0]+' '+ke[1]+' '+ke[2]+' '+ke[4]+' '+ke[5]+' '+ke[3]+'\n')#选取所需特征
+                output.append(ke[0]+' '+ke[1]+' '+ke[2]+' '+ke[4]+' '+ke[5]+' '+ke[3]+'\n')#features selection
 
             else:
                 output.append('\n')
         elif len(ke)==1:
-            output.append(ke[0]+' '+"%"+' '+"0"+' '+'0'+' '+"0"+' '+"N"+'\n')#选取所需特征
+            output.append(ke[0]+' '+"%"+' '+"0"+' '+'0'+' '+"0"+' '+"N"+'\n')#features selection
 
         else:
             continue
