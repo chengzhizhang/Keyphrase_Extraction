@@ -10,7 +10,7 @@ import numpy as np
 import json
 import re
 import math
-#Stop word filtering, Symbol removal and Stemming.
+
 f=open('E:\\KEA_code\\data\\KP20K_2000.json','r')
 lines=f.readlines()
 #wr=open('E:\\KEA_code\\data\\Semeval\\b_Semeval.stem_244.json','w')#Stop word filtering, Symbol removal and Stemming.
