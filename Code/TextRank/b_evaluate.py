@@ -1,3 +1,5 @@
+#Calculate the P, R and F1 values of the extraction results
+
 # -*- coding: utf-8 -*-
 import nltk
 import json
@@ -5,7 +7,6 @@ import re
 from nltk.stem.porter import PorterStemmer
 porter_stemmer = PorterStemmer() 
 
-#Calculate the P, R and F1 values of the extraction results
 
 f1=open('E:\\KEA_code\\data\\Semeval\\a_Semeval.range_244.json','r')
 lines1=f1.readlines()
