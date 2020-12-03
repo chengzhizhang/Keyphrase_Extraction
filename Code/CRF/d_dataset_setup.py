@@ -4,7 +4,6 @@
 import json
 import re
 
-#The corpus is divided into test set and training set.
 
 f=open('E:\\KEA_code\\crf\\c_KP20K_bz.json','r')
 #f=open('E:\\KEA_code\\crf\\c_Semeval_bz_ref.json','r')
