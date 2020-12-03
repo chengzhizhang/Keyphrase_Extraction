@@ -11,7 +11,6 @@ import json
 import re
 import math
 
-#Calculate the TextRank value.
 
 f=open('E:\\KEA_code\\data\\KP20K_2000.json','r')
 lines=f.readlines()
