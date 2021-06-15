@@ -1,7 +1,7 @@
 #  Enhancing Keyphrase Extraction from Academic Articles with their Reference Information
 
 
-## 1. Project Description
+## Project Description
 The research content of this project is to analyze the impact 
 of the introduction of reference title in scientific literature 
 on the effect of keyword extraction. This project uses three 
@@ -12,7 +12,7 @@ methods: <b>TF-IDF</b> and <b>TextRank</b>, and three supervised learning method
 extraction methods, located in the folder <b>ML</b>, and the last one is deep 
 learning method, located in the folder <b>DL</b>.
 
-## 2. Reproduction results
+## Reproduction results
 In order to facilitate the reproduction of the experimental results, 
 the project uses bat batch command to run the program uniformly 
 (only in Windows Environment). The <b>dl.bat</b> file is the batch command 
@@ -25,24 +25,20 @@ to open the <b>DOS</b> command box, and switch to the project's root directory
 to get the result of keyword extraction; Enter <b>ml.bat</b> to run traditional 
 algorithm to get keywords Extract the results.
 
-## 3. Experimental results
+## Experimental results
 The following figure is the results of running with BiLSTM-CRF.
 ![img.png](img.png)
 
-## 4. Dependency packages
+## Dependency packages
 Before running this project, check that the following Python packages are 
 included in your runtime environment.
 
 pytorch=1.7.1
-
 nltk=3.5
-
 numpy=1.19.2
-
 pandas=1.1.3
-
 tqdm=4.50.2
 
 
-###  References
+## Reference
 Chengzhi Zhang, Lei Zhao, Mengyuan Zhao, Yingyi Zhang. Enhancing Keyphrase Extraction from Academic Articles with their Reference Information. 2020(Under Review) 
