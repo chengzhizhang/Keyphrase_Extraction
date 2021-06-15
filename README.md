@@ -28,7 +28,7 @@ algorithm to get keywords Extract the results.
 ## Experimental results
 The following figure is the results of running with BiLSTM-CRF.
 
-<img src="./img.png" alt="the results of running with BiLSTM-CRF" align="center" width="100%"/>
+![img.png](img.png)
 
 ## Dependency packages
 Before running this project, check that the following Python packages are 
