@@ -34,9 +34,13 @@ Before running this project, check that the following Python packages are
 included in your runtime environment.
 
 pytorch=1.7.1
+
 nltk=3.5
+
 numpy=1.19.2
+
 pandas=1.1.3
+
 tqdm=4.50.2
 
 
