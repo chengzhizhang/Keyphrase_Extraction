@@ -2,6 +2,8 @@
 
 
 ## Project Description
+<b>Dataset and codes for paper "Enhancing Keyphrase Extraction from Academic Articles with their Reference Information".</b>
+
 The research content of this project is to analyze the impact 
 of the introduction of reference title in scientific literature 
 on the effect of keyword extraction. This project uses three 
