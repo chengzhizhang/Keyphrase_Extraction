@@ -45,12 +45,19 @@ learning method, located in the folder <b>DL</b>.
     ├─CRF++:                          CRF++ Toolkit
     └─KEA-3.0:                        KEA-3.0 Toolkit
 </pre>
+
+## Dataset Description
+
+
+
+
 ## Reproduction results
 In order to facilitate the reproduction of the experimental results, 
 the project uses bat batch command to run the program uniformly 
 (only in Windows Environment). The <b>dl.bat</b> file is the batch command 
 to run the deep learning model, and the <b>ml.bat</b> file is the batch command 
 to run the traditional algorithm.
+
 ### How does it work?
 In the Windows environment, use the key combination <b>Win + R</b> and enter <b>cmd</b>
 to open the <b>DOS</b> command box, and switch to the project's root directory 
@@ -67,15 +74,15 @@ The following figure is the results of running with BiLSTM-CRF.
 Before running this project, check that the following Python packages are 
 included in your runtime environment.
 
-pytorch=1.7.1
+***pytorch=1.7.1
 
-nltk=3.5
+***nltk=3.5
 
-numpy=1.19.2
+***numpy=1.19.2
 
-pandas=1.1.3
+***pandas=1.1.3
 
-tqdm=4.50.2
+***tqdm=4.50.2
 
 
 ## Reference
