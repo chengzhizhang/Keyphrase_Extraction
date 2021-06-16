@@ -78,11 +78,11 @@ included in your runtime environment.
 
 <li>nltk=3.5
 
-*numpy=1.19.2
+<li>numpy=1.19.2
 
-*pandas=1.1.3
+<li>pandas=1.1.3
 
-*tqdm=4.50.2
+<li>tqdm=4.50.2
 
 
 ## Reference
