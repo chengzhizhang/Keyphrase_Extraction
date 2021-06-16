@@ -54,7 +54,7 @@ learning method, located in the folder <b>DL</b>.
 ## Dataset Description
 
 <b>The dataset includes the following three json files:</b>
-<li> KP20k.json： Contains 2000 scientific papers from Dataset KP20k (https://drive.google.com/open?id=1ZTQEGZSq06kzlPlOv4yGjbUpoDrNxebR).
+<li> KP20k.json：Contains 2000 scientific papers from Dataset KP20k (https://drive.google.com/open?id=1ZTQEGZSq06kzlPlOv4yGjbUpoDrNxebR).
 <li> SemEval-2010.json: SemEval-2010 Task 5 dataset, it contains 244 scientific papers and can be visited at: https://semeval2.fbk.eu/semeval2.php?location=data 
 <li> LIS-2000.json: Contains 2000 scientific papers from journals in Library and Information Science(LIS).
 
