@@ -1,6 +1,9 @@
 :: Switch path
 cd DL
 
+:: create folder
+python build_path.py
+
 :: Run on dataset SemEval-2010 -- without refs
 python main.py -dn SemEval-2010 -fd title abstract
 python main.py -dn SemEval-2010 -fd title abstract
