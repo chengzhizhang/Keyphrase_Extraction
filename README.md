@@ -18,8 +18,8 @@ learning method, located in the folder <b>DL</b>.
 │ 
 ├─Dataset:                            Store experimental datasets
 │      KP20k.json:                    Contains 2000 scientific papers 
-│      LIS-2000.json:                 Contains 2000 scientific papers
 │      SemEval-2010.json:             Contains 244 scientific papers
+│      LIS-2000.json:                 Contains 2000 scientific papers
 │ 
 ├─DL:                                 Store the source code of the deep learning model
 │  │  build_path.py:                  Create file paths for saving preprocessed data
