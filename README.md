@@ -15,10 +15,12 @@ learning method, located in the folder <b>DL</b>.
 <pre>Keyphrase_Extraction:                 Root directory
 │  dl.bat:                            Batch commands to run deep learning model
 │  ml.bat:                            Batch commands to run traditional models
+│ 
 ├─Dataset:                            Store experimental datasets
-│      KP20k.json
-│      LIS-2000.json
-│      SemEval-2010.json
+│      KP20k.json:                    Contains 2000 scientific papers 
+│      LIS-2000.json:                 Contains 2000 scientific papers
+│      SemEval-2010.json:             Contains 244 scientific papers
+│ 
 ├─DL:                                 Store the source code of the deep learning model
 │  │  build_path.py:                  Create file paths for saving preprocessed data
 │  │  crf.py:                         Source code of CRF algorithm implementation(Use pytorch framework)
@@ -32,6 +34,7 @@ learning method, located in the folder <b>DL</b>.
 │  ├─configs:                         Parameter configuration of deep learning model model
 │  └─datas
 │        tags:                        Label settings for sequence labeling
+│ 
 └─ML:                                 Store the source code of the traditional models
     │  build_path.py:                 Create file paths for saving preprocessed data
     │  configs.py:                    Path configuration file
@@ -48,7 +51,16 @@ learning method, located in the folder <b>DL</b>.
 
 ## Dataset Description
 
+The dataset includes the following three json files:
+<li> KP20k.json： Contains 2000 scientific papers from Dataset KP20k.
+<li> SemEval-2010.json: SemEval-2010 Task 5 dataset, it contains 244 scientific papers and can be visited as: https://semeval2.fbk.eu/semeval2.php?location=data 
+<li> LIS-2000.json: Contains 2000 scientific papers from journals in Library and Information Science.
 
+Each line of the json file includes: 
+<li>title: The title the paper.
+<li>abstract: The title the paper.
+<li>keywords: the keywords of the paper and these keywords were annotated manually.
+<li>references: references list and only the title of each reference is provided.
 
 
 ## Reproduction results
