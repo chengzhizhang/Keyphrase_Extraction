@@ -1,6 +1,9 @@
 :: Switch path
 cd ML
 
+:: create folder
+python build_path.py
+
 :: 1. TF-IDF
 :: SemEval-2010
 :: without refs
