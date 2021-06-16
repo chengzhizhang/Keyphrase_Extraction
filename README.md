@@ -100,6 +100,6 @@ included in your runtime environment.
 
 
 ## Citation
-Please cite the following paper if you use this code and dataset in your work.
+Please cite the following paper if you use the codes and dataset in your work.
     
 Chengzhi Zhang, Lei Zhao, Mengyuan Zhao, Yingyi Zhang. Enhancing Keyphrase Extraction from Academic Articles with their Reference Information. 2021(Under Review) 
