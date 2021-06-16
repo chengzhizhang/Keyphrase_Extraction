@@ -19,7 +19,7 @@ the project uses bat batch command to run the program uniformly
 to run the deep learning model, and the <b>ml.bat</b> file is the batch command 
 to run the traditional algorithm.
 ### How does it work?
-In the windows environment, use the key combination <b>Win + R</b> and enter <b>cmd</b>
+In the Windows environment, use the key combination <b>Win + R</b> and enter <b>cmd</b>
 to open the <b>DOS</b> command box, and switch to the project's root directory 
 (Keyphrase_Extraction). Then input <b>dl.bat</b>, that is, run deep learning model 
 to get the result of keyword extraction; Enter <b>ml.bat</b> to run traditional 
