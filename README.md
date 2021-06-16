@@ -1,7 +1,7 @@
 #  Enhancing Keyphrase Extraction from Academic Articles with their Reference Information
 
 
-## Project Description
+## Overview
 <b>Dataset and codes for paper "Enhancing Keyphrase Extraction from Academic Articles with their Reference Information".</b>
 
 The research content of this project is to analyze the impact 
