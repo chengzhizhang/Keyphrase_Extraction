@@ -99,5 +99,7 @@ included in your runtime environment.
 <li>tqdm=4.50.2
 
 
-## Reference
+## Citation
+Please cite the following paper if you use this code and dataset in your work.
+    
 Chengzhi Zhang, Lei Zhao, Mengyuan Zhao, Yingyi Zhang. Enhancing Keyphrase Extraction from Academic Articles with their Reference Information. 2021(Under Review) 
