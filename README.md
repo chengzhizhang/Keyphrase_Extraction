@@ -74,9 +74,9 @@ The following figure is the results of running with BiLSTM-CRF.
 Before running this project, check that the following Python packages are 
 included in your runtime environment.
 
-*pytorch=1.7.1
+<li>pytorch=1.7.1
 
-*nltk=3.5
+<li>nltk=3.5
 
 *numpy=1.19.2
 
