@@ -15,7 +15,7 @@ learning method, located in the folder <b>DL</b>.
 <pre>Keyphrase_Extraction:                 Root directory
 │  dl.bat:                            Batch commands to run deep learning model
 │  ml.bat:                            Batch commands to run traditional models
-├─dataset:                            Store experimental datasets
+├─Dataset:                            Store experimental datasets
 │      KP20k.json
 │      LIS-2000.json
 │      SemEval-2010.json
