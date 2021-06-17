@@ -4,7 +4,7 @@ from tqdm import tqdm
 from collections import Counter
 
 
-# 计算idf
+# Calculate IDF
 def cal_idf(datas):
     total_files  = len(datas)
     all_words = set([j for line in datas for j in line])
@@ -18,7 +18,7 @@ def cal_idf(datas):
         idf[k] = math.log((total_files + 1) / (v + 1), 2)
     return idf
 
-# 计算tf-idf
+# Calculate TF-IDF
 def tf_idf(datas):
     idf = cal_idf(datas)
     return_datas = []
@@ -31,5 +31,5 @@ def tf_idf(datas):
             for k, v in tf.items():
                 keywords[k] = (v / num_words) * idf[k]
             return_datas.append(keywords)
-            pbar.set_description("第%s个文档计算TF-IDF完成"%(index + 1))
+            pbar.set_description("The %s document calculation TF-IDF completed"%(index + 1))
     return return_datas
