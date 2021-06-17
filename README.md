@@ -33,7 +33,7 @@ learning method, located in the folder <b>DL</b>.
 │  │  tf_idf.py:                      Source code of TF-IDF algorithm implementation.
 │  │  train.py:                       Source code for model training
 │  │  utils.py:                       Some auxiliary functions
-│  ├─configs:                         Parameter configuration of deep learning model model
+│  ├─configs:                         Parameter configuration of deep learning models
 │  └─datas
 │        tags:                        Label settings for sequence labeling
 │ 
