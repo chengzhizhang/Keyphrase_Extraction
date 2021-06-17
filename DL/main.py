@@ -27,7 +27,7 @@ if __name__ == '__main__':
     print("dataset_name:", args.dataset_name)
     print("fields:", args.fields)
 
-    dataset_path = os.path.join(WORKING_PATH, 'dataset', args.dataset_name+".json")
+    dataset_path = os.path.join(WORKING_PATH, 'Dataset', args.dataset_name+".json")
     save_path = os.path.join('./datas', args.dataset_name)
 
     # Construction datas
