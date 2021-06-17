@@ -188,10 +188,10 @@ def run(path, save_name, is_add_ref = False, folds=10):
         print("not in title and abstract and with refs:", [average(ave_p), average(ave_r), average(ave_f1)])
         print("in title and abstract and with refs:", [average(ave_p_ta), average(ave_r_ta), average(ave_f1_ta)])
         pd.DataFrame(np.array([average(ave_p), average(ave_r), average(ave_f1)]).T).to_csv(
-            "./datas/%s_%s_ref_no_in_title_and_abs.csv"%(save_name, 'with'), index=False, header=False)
+            "./results/%s_%s_ref_no_in_title_and_abs.csv"%(save_name, 'with'), index=False, header=False)
         pd.DataFrame(np.array([average(ave_p_ta), average(ave_r_ta), average(ave_f1_ta)]).T).to_csv(
-            "./datas/%s_%s_ref_in_title_and_abs.csv"%(save_name, 'with'), index=False, header=False)
+            "./results/%s_%s_ref_in_title_and_abs.csv"%(save_name, 'with'), index=False, header=False)
     else:
         print("not in title and abstract and no refs:", [average(ave_p), average(ave_r), average(ave_f1)])
         pd.DataFrame(np.array([average(ave_p), average(ave_r), average(ave_f1)]).T).to_csv(
-            "./datas/%s_%s_ref_no_in_title_and_abs.csv" % (save_name, 'no'), index=False, header=False)
+            "./results/%s_%s_ref_no_in_title_and_abs.csv" % (save_name, 'no'), index=False, header=False)
