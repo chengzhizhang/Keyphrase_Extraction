@@ -14,11 +14,11 @@ from utils import read_json_datas, performance_metrics
 from torch.utils.tensorboard import SummaryWriter
 torch.manual_seed(2021)
 
-# 时间步计算器
+# Time step counter
 steps = 1
 def train_func(train_data_path, test_data_path, vocab_path, config_path, test_info_path, is_add_ref):
     writer = SummaryWriter('./log/runs')
-    # 加载配置文件
+    # Load configuration file
     test_info = read_json_datas(test_info_path)
     configs = json.load(open(config_path, 'r', encoding='utf-8'))
     print("params:", configs)
@@ -39,11 +39,11 @@ def train_func(train_data_path, test_data_path, vocab_path, config_path, test_in
         sentence_max_len=configs['sentence_max_len'],
         word_max_len=configs['word_max_len'])
 
-    # 数据加载器
+    # Data Loader
     train_loader = DataLoader(train_dataset, batch_size = configs['batch_size'])
     test_loader = DataLoader(test_dataset, batch_size = configs['batch_size'])
 
-    # 模型
+    # Create BiLSTM-CRF model object
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = BiLSTM_CRF(
         word_vocab_path = os.path.join(vocab_path, 'word_vocab.txt'),
@@ -64,7 +64,7 @@ def train_func(train_data_path, test_data_path, vocab_path, config_path, test_in
     print(model)
 
     optimizer = optim.Adam(model.parameters(), lr = configs['lr'], weight_decay = configs['weight_decay'])
-    # 学习率衰减
+    # Learning rate decay
     scheduler = ReduceLROnPlateau(optimizer, factor = configs['optim_scheduler_factor'],
                                   patience = configs['optim_scheduler_patience'],
                                   verbose = bool(configs['optim_scheduler_verbose']))
@@ -87,7 +87,7 @@ def train_func(train_data_path, test_data_path, vocab_path, config_path, test_in
                 loss = model.loss(x, y)
                 model.zero_grad()
                 loss.backward()
-                # 梯度裁剪
+                # Gradient clipping
                 nn.utils.clip_grad_norm_(model.parameters(), max_norm=10, norm_type=2)
                 optimizer.step()
                 losses.append(loss.item())
@@ -114,7 +114,7 @@ def train_func(train_data_path, test_data_path, vocab_path, config_path, test_in
             if f1 > best_f1:
                 best_model = model
                 best_p, best_r, best_f1 = p, r, f1
-            # 记录信息
+            # record information
             writer.add_scalar('Train/Loss', round(np.average(losses)), steps)
             writer.add_scalar('test/p', p,  steps)
             writer.add_scalar('test/r', r,  steps)
@@ -129,7 +129,7 @@ def train_func(train_data_path, test_data_path, vocab_path, config_path, test_in
                 best_p_ta, best_r_ta, best_f1_ta = p_ta, r_ta, f1_ta
             print("epoch: %s, loss: %s, p: %s, r: %s, f1: %s" % (epoch+1, np.mean(losses), p, r, f1))
             print("p_ta: %s, r_ta: %s, f1_ta: %s" % (p_ta, r_ta, f1_ta))
-            # 记录信息
+            # record information
             writer.add_scalar('Train/Loss', round(np.average(losses)), steps)
             writer.add_scalar('test/p', p, steps)
             writer.add_scalar('test/r', r, steps)
@@ -144,7 +144,7 @@ def train_func(train_data_path, test_data_path, vocab_path, config_path, test_in
     return best_p, best_r, best_f1, best_p_ta, best_r_ta, best_f1_ta, best_model
 
 
-# 十折交叉验证
+# 10 fold cross validation
 def run(path, save_name, is_add_ref = False, folds=10):
     train_folder = os.path.join(path, 'train')
     test_folder = os.path.join(path, 'test')
