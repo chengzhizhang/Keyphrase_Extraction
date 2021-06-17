@@ -59,7 +59,7 @@ class TextDataSet(Dataset):
             word_tr.extend(minus_one_pad)
             freq_ft.extend(minus_one_pad)
             freq_rf.extend(minus_one_pad)
-        # 构建字符编码序列
+        # Construct character encoding sequence
         chars_seq = np.zeros(shape=(self.sentence_max_len, self.word_max_len))
         for ii in range(min([len(text_chars), self.sentence_max_len])):
             chars = [self.char_vocab[i] for i in text_chars[ii]]
@@ -71,11 +71,11 @@ class TextDataSet(Dataset):
                 chars.extend(zero_pad)
             assert len(chars) == self.word_max_len
             chars_seq[ii] = chars
-        # 将数据类型转成numpy
+        # Convert the data type to numpy
         word_ids = np.array(text)
         char_ids = np.array(chars_seq)
         label = np.array(label)
-        # 特征
+        # Features
         word_ps = np.array(word_ps)
         word_lc = np.array(word_lc)
         word_ln = np.array(word_ln)
@@ -83,9 +83,9 @@ class TextDataSet(Dataset):
         word_tr = np.array(word_tr)
         freq_ft = np.array(freq_ft)
         freq_rf = np.array(freq_rf)
-        # 注意力mask
+        # Attention mask
         attention_mask = word_ids > 0
-        # 特征打包
+        # Feature packaging
         features = np.vstack([word_ps, word_lc, word_ln,
                        word_tf, word_tr, freq_ft, freq_rf])
         return word_ids, char_ids, attention_mask, label, features, np.array(sentence_len)
