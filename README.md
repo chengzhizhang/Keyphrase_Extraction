@@ -80,7 +80,7 @@ to get the result of keyword extraction; Enter <b>ml.bat</b> to run traditional
 algorithm to get keywords Extract the results.
 
 ## Experimental results
-The following figure is the results of running with BiLSTM-CRF.
+The following figure shows that influence of reference information on key phrase extraction results of TF*IDF,TextRank, NB, CRF and BiLSTM-CRF.
 
 ![results.png](results.png)
 
