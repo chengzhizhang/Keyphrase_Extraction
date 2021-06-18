@@ -83,6 +83,7 @@ algorithm to get keywords Extract the results.
 The following figure shows that influence of reference information on key phrase extraction results of TF*IDF,TextRank, NB, CRF and BiLSTM-CRF.
 
 ![results.png](results.png)
+ <b>Note</b>: △P, △R, △F1 denotes: .....respectively.
 
 ## Dependency packages
 Before running this project, check that the following Python packages are 
