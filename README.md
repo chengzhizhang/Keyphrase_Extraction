@@ -82,7 +82,7 @@ algorithm to get keywords Extract the results.
 ## Experimental results
 The following figure is the results of running with BiLSTM-CRF.
 
-![img.png](img.png)
+![results.png](results.png)
 
 ## Dependency packages
 Before running this project, check that the following Python packages are 
