@@ -83,7 +83,7 @@ algorithm to get keywords Extract the results.
 The following figure shows that influence of reference information on key phrase extraction results of TF*IDF,TextRank, NB, CRF and BiLSTM-CRF.
 
 ![results.png](results.png)
-<b>Note</b>: △P, △R, △F<sub>1</sub> denotes: The difference of Precise, Recall and F<sub>1</sub> values of keyphrase extraction between corpus with [title, abstract and reference information] and corpus with only [title and abstract information, respectively].
+<b>Note</b>: △P, △R, △F<sub>1</sub> denotes: The difference of Precise, Recall and F<sub>1</sub> values of keyphrase extraction between corpus with [title, abstract and reference information] and corpus with only [title and abstract information], respectively.
     
 ## Dependency packages
 Before running this project, check that the following Python packages are 
