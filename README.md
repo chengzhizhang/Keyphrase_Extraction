@@ -65,7 +65,7 @@ learning method, located in the folder <b>DL</b>.
 <li>references: references list and only the title of each reference is provided.
 
 
-## Reproduction results
+## Quick Start
 In order to facilitate the reproduction of the experimental results, 
 the project uses bat batch command to run the program uniformly 
 (only in Windows Environment). The <b>dl.bat</b> file is the batch command 
