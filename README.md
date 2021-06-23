@@ -59,10 +59,10 @@ learning method, located in the folder <b>DL</b>.
 <li> LIS-2000.json: Contains 2000 scientific papers from journals in Library and Information Science(LIS).
 
 <b>Each line of the json file includes: </b>
-<li>title: The title the paper.
-<li>abstract: The abstract the paper.
-<li>keywords: the keywords of the paper and these keywords were annotated manually.
-<li>references: references list and only the title of each reference is provided.
+  <li>title: The title the paper.
+  <li>abstract: The abstract the paper.
+  <li>keywords: the keywords of the paper and these keywords were annotated manually.
+  <li>references: references list and only the title of each reference is provided.
 
 
 ## Quick Start
