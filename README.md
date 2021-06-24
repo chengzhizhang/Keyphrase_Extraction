@@ -83,7 +83,7 @@ algorithm to get keywords Extract the results.
 The following figure shows that influence of reference information on key phrase extraction results of TF*IDF,TextRank, NB, CRF and BiLSTM-CRF.
 
 ![Table.png](Table.png)
-<b>Note</b>: 'Degree of change' shows the results difference between Corpus_TAR (Corpus contains the title, abstract and reference title) and Corpus_TA (Corpus contains only the title and abstract), which demonstrates the worth of reference title information (∆P = P(Corpus_TAR) - P(Corpus_TA), ∆R = R(Corpus_TAR) - R(Corpus_TA), ∆F<sub>1</sub> = F<sub>1</sub>(Corpus_TAR) - F<sub>1</sub>(Corpus_TA)).  
+<b>Note</b>: 'Degree of change' shows the results difference between Corpus_TAR (Corpus contains the title, abstract and reference title) and Corpus_TA (Corpus contains only the title and abstract), which demonstrates the worth of reference title information. ∆P = P(Corpus_TAR) - P(Corpus_TA), ∆R = R(Corpus_TAR) - R(Corpus_TA), ∆F<sub>1</sub> = F<sub>1</sub>(Corpus_TAR) - F<sub>1</sub>(Corpus_TA).  
     
 ## Dependency packages
 Before running this project, check that the following Python packages are 
