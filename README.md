@@ -96,7 +96,6 @@ Table 2: Keyphrase extraction performance of multiple corpora constructed using 
 Table 3: Keyphrase extraction performance of multiple corpora constructed using different logical structure texts on the dataset of LIS-1000
 ![](./imgs/img_1.png)
     
- <img src="./imgs/img_1.png">
 
 Note: The yellow, green and blue bold fonts in the table represent the largest of the P, R and F<sub>1</sub> value obtained from different corpora using the same model, respectively.
 
