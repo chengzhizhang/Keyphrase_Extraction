@@ -85,7 +85,7 @@ to get the result of keyword extraction; Enter <b>ml.bat</b> to run traditional
 algorithm to get keywords Extract the results.
 
 ## Experimental results
-The following figures show that the influence of reference information on keyphrase extraction results of TF*IDF,TextRank, NB, CRF and BiLSTM-CRF.
+The following figures show that the influence of reference information on keyphrase extraction results of TF*IDF, TextRank, NB, CRF and BiLSTM-CRF.
 <br/><br/>
 Table 1: Keyphrase extraction performance of multiple corpora constructed using different logical structure texts on the dataset of SemEval-2010
 <img src="https://chengzhizhang.github.io/images/img_1.png" alt="Table1"/>
