@@ -89,7 +89,7 @@ The following figures show that the influence of reference information on keyphr
 <br/><br/>
 
 Table 1: Keyphrase extraction performance of multiple corpora constructed using different logical structure texts on the dataset of SemEval-2010
-!(./imgs/img_1.png)
+![RUNOOB 图标](./imgs/img_1.png)
 
 <br/><br/>
 
