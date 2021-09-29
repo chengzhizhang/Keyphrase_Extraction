@@ -88,13 +88,13 @@ algorithm to get keywords Extract the results.
 The following figures show that the influence of reference information on keyphrase extraction results of TF*IDF,TextRank, NB, CRF and BiLSTM-CRF.
 <br/><br/>
 Table 1: Keyphrase extraction performance of multiple corpora constructed using different logical structure texts on the dataset of SemEval-2010
-![](./imgs/img_1.png)
+![Image of Table1](./imgs/img_1.png)
 <br/><br/>
 Table 2: Keyphrase extraction performance of multiple corpora constructed using different logical structure texts on the dataset of PubMed
-![](./imgs/img_2.png)
+![Image of Table2](./imgs/img_2.png)
 <br/><br/>
 Table 3: Keyphrase extraction performance of multiple corpora constructed using different logical structure texts on the dataset of LIS-1000
-![](./imgs/img_1.png)
+![Image of Table3](./imgs/img_2.png)
     
 
 Note: The yellow, green and blue bold fonts in the table represent the largest of the P, R and F<sub>1</sub> value obtained from different corpora using the same model, respectively.
