@@ -94,7 +94,7 @@ Table 1: Keyphrase extraction performance of multiple corpora constructed using 
 <br/><br/>
 
 Table 2: Keyphrase extraction performance of multiple corpora constructed using different logical structure texts on the dataset of PubMed
-!(./imgs/img_2.png
+!(./imgs/img_2.png)
 
 <br/><br/>
 
