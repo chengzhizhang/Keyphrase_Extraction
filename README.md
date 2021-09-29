@@ -97,7 +97,7 @@ Table 3: Keyphrase extraction performance of multiple corpora constructed using 
 <img src="https://chengzhizhang.github.io/images/img_3.png" alt="Table3"/>
     
 
-    <b>Note</b>: The yellow, green and blue bold fonts in the table represent the largest of the P, R and F<sub>1</sub> value obtained from different corpora using the same model, respectively.
+<b>Note</b>: The yellow, green and blue bold fonts in the table represent the largest of the P, R and F<sub>1</sub> value obtained from different corpora using the same model, respectively.
 
 ## Dependency packages
 Before running this project, check that the following Python packages are 
