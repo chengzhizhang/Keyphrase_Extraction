@@ -137,7 +137,7 @@ if __name__ == "__main__":
     if args.mode == 'run':
         origin_datas = read_datas(file_path)
         ref_of_merging_phrases = merge_datas_toline(
-            data_preprocessing(origin_datas, ['title'], [2]), 1)
+            data_preprocessing(origin_datas, ['title', 'abstract'], [2, 2]), 1)
         # ref_of_merging_phrases = merge_datas_toline(
         #     data_preprocessing(origin_datas, args.fields, [2] * len(args.fields)), 1)
         datas = merge_datas_toline(data_preprocessing(origin_datas, args.fields, [7] * len(args.fields)), 2)
