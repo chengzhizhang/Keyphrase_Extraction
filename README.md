@@ -57,7 +57,7 @@ learning method, located in the folder <b>DL</b>.
 <a href="https://semeval2.fbk.eu/semeval2.php?location=data">https://semeval2.fbk.eu/semeval2.php?location=data</a>. 
 <li> PubMed: Contains 1316 scientific papers from PubMed 
 (<a href="https://github.com/boudinfl/ake-datasets/tree/master/datasets/PubMed">https://github.com/boudinfl/ake-datasets/tree/master/datasets/PubMed</a>).
-<li> LIS-2000.json: Contains 2000 scientific papers from journals in Library and Information Science (LIS).
+<li> LIS-2000: Contains 2000 scientific papers from journals in Library and Information Science (LIS).
 
 <b>Each line of the json file includes: </b>
 <li>title (T): The title of the paper.
@@ -93,7 +93,7 @@ Table 1: Keyphrase extraction performance of multiple corpora constructed using 
 Table 2: Keyphrase extraction performance of multiple corpora constructed using different logical structure texts on the dataset of PubMed
 <img src="https://chengzhizhang.github.io/images/img_2.png" alt="Table2"/>
 <br/><br/>
-Table 3: Keyphrase extraction performance of multiple corpora constructed using different logical structure texts on the dataset of LIS-1000
+Table 3: Keyphrase extraction performance of multiple corpora constructed using different logical structure texts on the dataset of LIS-2000
 <img src="https://chengzhizhang.github.io/images/img_3.png" alt="Table3"/>
     
 
