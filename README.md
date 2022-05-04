@@ -115,6 +115,6 @@ included in your runtime environment.
 
 
 ## Citation
-Please cite the following paper if you use this codes and dataset in your work.
+Please cite the following paper if you use this code and dataset in your work.
     
 >Chengzhi Zhang, Lei Zhao, Mengyuan Zhao, Yingyi Zhang. Enhancing Keyphrase Extraction from Academic Articles with their Reference Information. *Scientometrics*, 2022, 127(2): 703–731. [[doi]](https://doi.org/10.1007/s11192-021-04230-4)  [[arXiv]](http://arxiv.org/abs/2111.14106)
