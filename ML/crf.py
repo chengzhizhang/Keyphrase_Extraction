@@ -37,7 +37,7 @@ def init_args():
     opt = parser.parse_args()
     return opt
 
-# 数据区间化
+# Feature discretization
 def numerical_interval(val, max_val, min_val):
     v = round((val - min_val)/(max_val - min_val)*10, 0)
     return int(v)
