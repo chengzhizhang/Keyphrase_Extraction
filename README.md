@@ -18,12 +18,12 @@ learning method, located in the folder <b>DL</b>.
 │  dl.bat:                            Batch commands to run deep learning model
 │  ml.bat:                            Batch commands to run traditional models
 │ 
-├─Dataset:                            Store experimental datasets
+├─Dataset:                            Experimental datasets
 │      SemEval-2010:                  Contains 244 scientific papers 
 │      PubMed:                        Contains 1316 scientific papers
 │      LIS-2000:                      Contains 2000 scientific papers
 │ 
-├─DL:                                 Store the source code of the deep learning model
+├─DL:                                 Source code of the deep learning model
 │  │  build_path.py:                  Create file paths for saving preprocessed data
 │  │  crf.py:                         Source code of CRF algorithm implementation(Use pytorch framework)
 │  │  main.py:                        The main function of running the program
@@ -36,7 +36,7 @@ learning method, located in the folder <b>DL</b>.
 │  └─datas
 │        tags:                        Label settings for sequence labeling
 │ 
-└─ML:                                 Store the source code of the traditional models
+└─ML:                                 Source code of the traditional models
     │  build_path.py:                 Create file paths for saving preprocessed data
     │  configs.py:                    Path configuration file
     │  crf.py:                        Source code of CRF algorithm implementation(Use CRF++ Toolkit)
