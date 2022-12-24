@@ -34,7 +34,7 @@ learning method, located in the folder <b>DL</b>.
 │  │  utils.py                       Some auxiliary functions
 │  ├─models                          Parameter configuration of deep learning models
 │  └─datas
-│        tags                        Label settings for sequence labeling
+│     └─tags                         Label settings for sequence labeling
 │ 
 └─ML                                 Source code of the traditional models
     │  build_path.py                 Create file paths for saving preprocessed data
