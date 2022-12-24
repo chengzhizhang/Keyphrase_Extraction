@@ -2,7 +2,7 @@
 
 
 ## Overview
-<b>Dataset and code for paper "Enhancing Keyphrase Extraction from Academic Articles with their Reference Information".</b>
+<b>Dataset and source code for paper "Enhancing Keyphrase Extraction from Academic Articles with their Reference Information".</b>
 
 The research content of this project is to analyze the impact 
 of the introduction of reference title in scientific literature 
