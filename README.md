@@ -14,7 +14,7 @@ methods: <b>TF-IDF</b> and <b>TextRank</b>, and three supervised learning method
 extraction methods, located in the folder <b>ML</b>, and the last one is deep 
 learning method, located in the folder <b>DL</b>.
 ### Directory structure
-<pre>Keyphrase_Extraction          Root directory
+<pre>Keyphrase_Extraction               Root directory
 ├─dl.bat                           Batch commands to run deep learning model
 ├─ml.bat                           Batch commands to run traditional models
 │ 
