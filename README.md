@@ -37,17 +37,17 @@ learning method, located in the folder <b>DL</b>.
 │     └─tags                       Label settings for sequence labeling
 │ 
 └─ML                               Source code of the traditional models
-    ├─build_path.py                Create file paths for saving preprocessed data
-    ├─configs.py                   Path configuration file
-    ├─crf.py                       Source code of CRF algorithm implementation(Use CRF++ Toolkit)
-    ├─evaluate.py                  Surce code for result evaluation
-    ├─naivebayes.py                Source code of naivebayes algorithm implementation(Use KEA-3.0 Toolkit)
-    ├─preprocessing.py             Source code of preprocessing function
-    ├─textrank.py                  Source code of TextRank algorithm implementation
-    ├─tf_idf.py                    Source code of TF-IDF algorithm implementation
-    ├─utils.py                     Some auxiliary functions
-    ├─CRF++                        CRF++ Toolkit
-    └─KEA-3.0                      KEA-3.0 Toolkit
+   ├─build_path.py                 Create file paths for saving preprocessed data
+   ├─configs.py                    Path configuration file
+   ├─crf.py                        Source code of CRF algorithm implementation(Use CRF++ Toolkit)
+   ├─evaluate.py                   Surce code for result evaluation
+   ├─naivebayes.py                 Source code of naivebayes algorithm implementation(Use KEA-3.0 Toolkit)
+   ├─preprocessing.py              Source code of preprocessing function
+   ├─textrank.py                   Source code of TextRank algorithm implementation
+   ├─tf_idf.py                     Source code of TF-IDF algorithm implementation
+   ├─utils.py                      Some auxiliary functions
+   ├─CRF++                         CRF++ Toolkit
+   └─KEA-3.0                       KEA-3.0 Toolkit
 </pre>
 
 ## Dataset Description
