@@ -10,7 +10,7 @@ on the effect of keyword extraction. This project uses three
 datasets: <b>SemEval-2010</b>, <b>PubMed</b> and <b>LIS-2000</b>, which are located 
 in the dataset folder. At the same time, we use two unsupervised 
 methods: <b>TF-IDF</b> and <b>TextRank</b>, and three supervised learning methods:
-<b>NaiveBayes</b>, <b>CRF</b> and <b>BiLSTM-CRF</b>. The first four are traditional keywords 
+<b>Naïve Bayes</b>, <b>CRF</b> and <b>BiLSTM-CRF</b>. The first four are traditional keywords 
 extraction methods, located in the folder <b>ML</b>, and the last one is deep 
 learning method, located in the folder <b>DL</b>.
 ### Directory structure
@@ -25,7 +25,7 @@ learning method, located in the folder <b>DL</b>.
 │ 
 ├─DL                               Source code of the deep learning model
 │  ├─build_path.py                 Create file paths for saving preprocessed data
-│  ├─ crf.py                       Source code of CRF algorithm implementation (Use pytorch framework)
+│  ├─crf.py                       Source code of CRF algorithm implementation (Use pytorch framework)
 │  ├─main.py                       The main function of running the program
 │  ├─model.py                      Source code of BiLSTM-CRF model
 │  ├─preprocess.py                 Source code of preprocessing function
