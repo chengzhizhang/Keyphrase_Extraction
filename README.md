@@ -25,7 +25,7 @@ learning method, located in the folder <b>DL</b>.
 │ 
 ├─DL                               Source code of the deep learning model
 │  ├─build_path.py                 Create file paths for saving preprocessed data
-│  ├─ crf.py                       Source code of CRF algorithm implementation(Use pytorch framework)
+│  ├─ crf.py                       Source code of CRF algorithm implementation (Use pytorch framework)
 │  ├─main.py                       The main function of running the program
 │  ├─model.py                      Source code of BiLSTM-CRF model
 │  ├─preprocess.py                 Source code of preprocessing function
@@ -36,18 +36,20 @@ learning method, located in the folder <b>DL</b>.
 │  └─datas
 │     └─tags                       Label settings for sequence labeling
 │ 
-└─ML                               Source code of the traditional models
-   ├─build_path.py                 Create file paths for saving preprocessed data
-   ├─configs.py                    Path configuration file
-   ├─crf.py                        Source code of CRF algorithm implementation(Use CRF++ Toolkit)
-   ├─evaluate.py                   Surce code for result evaluation
-   ├─naivebayes.py                 Source code of naivebayes algorithm implementation(Use KEA-3.0 Toolkit)
-   ├─preprocessing.py              Source code of preprocessing function
-   ├─textrank.py                   Source code of TextRank algorithm implementation
-   ├─tf_idf.py                     Source code of TF-IDF algorithm implementation
-   ├─utils.py                      Some auxiliary functions
-   ├─CRF++                         CRF++ Toolkit
-   └─KEA-3.0                       KEA-3.0 Toolkit
+├─ML                               Source code of the traditional models
+│  ├─build_path.py                 Create file paths for saving preprocessed data
+│  ├─configs.py                    Path configuration file
+│  ├─crf.py                        Source code of CRF algorithm implementation(Use CRF++ Toolkit)
+│  ├─evaluate.py                   Surce code for result evaluation
+│  ├─naivebayes.py                 Source code of Naïve Bayes algorithm implementation(Use KEA-3.0 Toolkit)
+│  ├─preprocessing.py              Source code of preprocessing function
+│  ├─textrank.py                   Source code of TextRank algorithm implementation
+│  ├─tf_idf.py                     Source code of TF-IDF algorithm implementation
+│  ├─utils.py                      Some auxiliary functions
+│  ├─CRF++                         CRF++ Toolkit
+│  └─KEA-3.0                       KEA-3.0 Toolkit
+│
+└─README.md
 </pre>
 
 ## Dataset Description
