@@ -23,9 +23,9 @@ learning method, located in the folder <b>DL</b>.
 │  ├─PubMed                        Contains 1316 scientific papers
 │  └─LIS-2000                      Contains 2000 scientific papers
 │ 
-├─DL                               Source code of the deep learning model
+├─DL                               Module of the deep learning model
 │  ├─build_path.py                 Create file paths for saving preprocessed data
-│  ├─crf.py                       Source code of CRF algorithm implementation (Use pytorch framework)
+│  ├─crf.py                        Source code of CRF algorithm implementation (Use pytorch framework)
 │  ├─main.py                       The main function of running the program
 │  ├─model.py                      Source code of BiLSTM-CRF model
 │  ├─preprocess.py                 Source code of preprocessing function
@@ -36,7 +36,7 @@ learning method, located in the folder <b>DL</b>.
 │  └─datas
 │     └─tags                       Label settings for sequence labeling
 │ 
-├─ML                               Source code of the traditional models
+├─ML                               Module of the traditional models
 │  ├─build_path.py                 Create file paths for saving preprocessed data
 │  ├─configs.py                    Path configuration file
 │  ├─crf.py                        Source code of CRF algorithm implementation(Use CRF++ Toolkit)
