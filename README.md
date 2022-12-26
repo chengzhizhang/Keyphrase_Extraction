@@ -20,8 +20,8 @@ learning method, located in the folder <b>DL</b>.
 │ 
 ├─Dataset                          Experimental datasets
 │  ├─SemEval-2010                  Contains 244 scientific papers 
-│  ├─PubMed                        Contains 1316 scientific papers
-│  └─LIS-2000                      Contains 2000 scientific papers
+│  ├─PubMed                        Contains 1, 316 scientific papers
+│  └─LIS-2000                      Contains 2, 000 scientific papers
 │ 
 ├─DL                               Module of the deep learning model
 │  ├─build_path.py                 Create file paths for saving preprocessed data
